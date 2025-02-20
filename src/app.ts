@@ -162,4 +162,5 @@ datasource.initialize().then(()=>{
 
 app.listen(port , ()=>{
     console.log(`server running on ${port}`)
+    console.log("Hello!")
 })
